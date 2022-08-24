@@ -1,0 +1,99 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.popup{
+    display: flex;
+    background: #3e4144;
+    justify-content: center;
+    align-items: center;
+}
+
+html{
+    min-height: 100%;
+    /* height:fit-content */
+}
+
+
+.homeScreen{
+    height: 100vh;
+	width: 90%;
+    display: flex;
+	/* background-color:white; */
+	background-size: cover;
+    /* background-clip: ; */
+	background-position: center;
+    background-repeat: no-repeat;
+}
+
+div video .video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.content .one{
+    /* position: relative; */
+    /* background-image: url(images/one.jpg); */
+    height: 50%;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.form {
+    /* margin: 5vw; */
+    width: 100vw;
+    padding: 30px 25px;
+    background: white;
+    
+}
+h1.login-title {
+    color: #666;
+    margin: 0px auto 25px;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+.login-input {
+    font-size: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 25px;
+    height: 25px;
+    min-width:10vw;
+    /* width: calc(100% - 23px); */
+}
+.login-input-area{
+    font-size: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 25px;
+    min-width:10vw;
+    width: fit-content;
+    /* width: calc(100% - 23px); */
+}
+.login-input:focus {
+    border-color:#6e8095;
+    outline: none;
+}
+
+
+.link a {
+    color: #666;
+}
+.link2 a {
+    color: red;
+    font-size: 18px;
+}
+h3 {
+    font-weight: normal;
+    text-align: center;
+}
+
+
